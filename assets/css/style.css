@@ -73,6 +73,7 @@ input {
     border-radius: 10px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.194);
     border-bottom: 2px solid #D37E91;
+    cursor: pointer;
 }
 
 input[name="SingIn"], 
@@ -160,6 +161,7 @@ i.fab:hover {
 label {
     color: #8f3b4d;
     font-size: 0.8em;
+    cursor: pointer;
 }
 
 .or{
@@ -176,12 +178,9 @@ label {
     text-decoration: none;
     color: #ad5064;
     font-family: "Sora", sans-serif;
-    padding: 8px;
-    border-radius: 5px;
     transition: 0.8s ease;
 }
 
 .recover a:hover {
     color: #eac2cb;
-    background-color: #ad5064;
 }
