@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Registro & Login</title>
+</head>
+<body>
+
+    <!--REGISTRO-->
+    <div class="container" id="singup">
+        <h1 class="form-tittle">Registro</h1>
+        <form method="post" action="">
+            <div class="input">
+                <i class="fas fa-user" for></i>
+                <input type="text" name="fName" id="fName" placeholder="Seu nome" required>
+                <label for="fName">Nome</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="lName" id="lName" placeholder="Seu Sobrenome" required>
+                <label for="lName">Sobrenome</label>
+            </div><div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="email" id="email" placeholder="Seu email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="passowrd" id="passowrd" placeholder="Sua senha">
+                <label for="passowrd">Senha</label>
+            </div>
+            <input type="submit" class="btn" value="Cadastrar" name="SingUp">
+        </form>
+        <!--OU-->
+        <p class="or">Ou</p>
+        <div class="icons">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+            <p>Já tem uma conta?</p>
+            <button id="singInButton">Entrar</button>
+        </div>
+    </div>
+
+    <!--ENTRAR-->
+    <div class="container" id="singup">
+        <h1 class="form-tittle">Entrar</h1>
+        <form method="post" action="">
+            <div class="input">
+            </div><div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="email" id="emailIn" placeholder="Seu email" required>
+                <label for="emailIn">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="passowrd" id="passowrdIn" placeholder="Sua senha">
+                <label for="passowrdIn">Senha</label>
+            </div>
+            <p class="recover">
+                <a href="">Esqueceu a senha ou o email?</a>
+            </p>
+            <input type="submit" class="btn" value="Entrar" name="SingIn">
+        </form>
+
+        <!--OU-->
+        <p class="or">Ou</p>
+        <div class="icons">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+            <p>Ainda não tem uma conta?</p>
+            <button id="SingUpButton">Cadastre</button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
