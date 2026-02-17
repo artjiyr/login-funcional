@@ -19,6 +19,10 @@ html, body{
 body{
     background-color: #D37E91;
     background: linear-gradient(45deg, #D37E91, #FFE8EE);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
